@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EyS7KmpZNoKIZS+pdBCgXET2kSIq6B+XgcOQy9+KM1H6+6QVgOszFPCU7Y/wluaRks6vKmb8gh07oJF4xW9x+w==",
+  "dgSpecHash": "hSxOlTlBHQYvACnyqlr087AqhgSi4RNsRTL0Qrc2dy+oN5Nci1KOpXGLsnTDxDPeuClPwbf5cqma5nZo/B67Rg==",
   "success": true,
   "projectFilePath": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata.Tests\\Checkout-Kata.Tests.csproj",
   "expectedPackageFiles": [

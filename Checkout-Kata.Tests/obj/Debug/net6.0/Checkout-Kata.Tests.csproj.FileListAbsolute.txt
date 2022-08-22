@@ -96,3 +96,6 @@ C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\obj\Debug\net6.0\refint\Checkout-K
 C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\obj\Debug\net6.0\Checkout-Kata.Tests.pdb
 C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\obj\Debug\net6.0\Checkout-Kata.Tests.genruntimeconfig.cache
 C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\obj\Debug\net6.0\ref\Checkout-Kata.Tests.dll
+C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\bin\Debug\net6.0\Checkout-Kata.dll
+C:\CodeKata\Checkout-Kata\Checkout-Kata.Tests\bin\Debug\net6.0\Checkout-Kata.pdb
