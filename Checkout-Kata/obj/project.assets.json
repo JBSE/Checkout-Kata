@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata.csproj",
+      "projectUniqueName": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata.csproj",
       "projectName": "Checkout-Kata",
-      "projectPath": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata.csproj",
+      "projectPath": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata.csproj",
       "packagesPath": "C:\\Users\\JohnBrady\\.nuget\\packages\\",
-      "outputPath": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata\\Checkout-Kata\\obj\\",
+      "outputPath": "C:\\CodeKata\\Checkout-Kata\\Checkout-Kata\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JohnBrady\\AppData\\Roaming\\NuGet\\NuGet.Config",

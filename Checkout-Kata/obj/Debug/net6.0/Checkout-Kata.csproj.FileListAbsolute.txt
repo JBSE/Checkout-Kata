@@ -1,0 +1,12 @@
+C:\CodeKata\Checkout-Kata\Checkout-Kata\bin\Debug\net6.0\Checkout-Kata.deps.json
+C:\CodeKata\Checkout-Kata\Checkout-Kata\bin\Debug\net6.0\Checkout-Kata.dll
+C:\CodeKata\Checkout-Kata\Checkout-Kata\bin\Debug\net6.0\Checkout-Kata.pdb
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.csproj.AssemblyReference.cache
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.AssemblyInfoInputs.cache
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.AssemblyInfo.cs
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.csproj.CoreCompileInputs.cache
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.dll
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\refint\Checkout-Kata.dll
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\Checkout-Kata.pdb
+C:\CodeKata\Checkout-Kata\Checkout-Kata\obj\Debug\net6.0\ref\Checkout-Kata.dll
