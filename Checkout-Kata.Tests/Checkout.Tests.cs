@@ -88,5 +88,35 @@ namespace Checkout_Kata.Tests
             // Assert
             Assert.AreEqual(1.5M, result);
         }
+
+        [TestMethod]
+        public void Handle_When_Three_Different_Items_Scanned()
+        {
+            // Arrange
+            _checkout.ScanItem("A");
+            _checkout.ScanItem("B");
+            _checkout.ScanItem("A");
+
+            // Act
+            var result = _checkout.CalculateTotal();
+
+            // Assert
+            Assert.AreEqual(2.0M, result);
+        }
+
+        [TestMethod]
+        public void Handle_Discounts_Buy_Three_One_Free()
+        {
+            // Arrange
+            _checkout.ScanItem("A");
+            _checkout.ScanItem("A");
+            _checkout.ScanItem("A");
+
+            // Act
+            var result = _checkout.CalculateTotal();
+
+            // Assert
+            Assert.AreEqual(1.0M, result);
+        }
     }
 }

@@ -4,12 +4,17 @@ namespace Checkout_Kata
 {
     public class Checkout
     {
+        // Test Repo
         private readonly List<Product> _products = new List<Product>();
+        private readonly List<DiscountRule> _discountRules = new List<DiscountRule>();
+        
+        // Scanned Items
         private List<string> _scannedItem = new List<string>();
 
-        public Checkout(List<Product> product)
+        public Checkout(List<Product> product, List<DiscountRule> discountRules)
         {
             _products = product;
+            _discountRules = discountRules;
         }
         
         public void ScanItem(string product)
