@@ -6,21 +6,30 @@ namespace Checkout_Kata.Tests
     public class CheckoutTests
     {
         // Fakers
-        
+
         // Mocks
-        
+
         // Sut
         private Checkout _checkout;
 
         [TestInitialize]
         public void BeforeEachTest()
         {
-            var product = new Product
+            List<Product> products = new List<Product>
             {
-                ProductName = "A",
-                ProductPrice = 0.5M
+                new Product
+                {
+                    ProductName = "A",
+                    ProductPrice = 0.5M
+                },
+                new Product
+                {
+                    ProductName = "B",
+                    ProductPrice = 1.0M
+                },
             };
-            _checkout = new Checkout(product);
+
+            _checkout = new Checkout(products);
         }
 
         [TestMethod]
@@ -36,10 +45,10 @@ namespace Checkout_Kata.Tests
         {
             // Arrange
             _checkout.ScanItem("A");
-            
+
             // Act
             var result = _checkout.CalculateTotal();
-            
+
             // Assert
             Assert.AreEqual(0.5M, result);
         }
@@ -58,12 +67,26 @@ namespace Checkout_Kata.Tests
             // Arrange
             _checkout.ScanItem("A");
             _checkout.ScanItem("A");
-            
+
             // Act
             var result = _checkout.CalculateTotal();
-            
+
             // Assert
             Assert.AreEqual(1.0M, result);
+        }
+
+        [TestMethod]
+        public void Handle_When_Two_Different_Items_Scanned()
+        {
+            // Arrange
+            _checkout.ScanItem("A");
+            _checkout.ScanItem("B");
+
+            // Act
+            var result = _checkout.CalculateTotal();
+
+            // Assert
+            Assert.AreEqual(1.5M, result);
         }
     }
 }

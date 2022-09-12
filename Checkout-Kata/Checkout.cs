@@ -1,21 +1,20 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using Checkout_Kata.Models;
+﻿using Checkout_Kata.Models;
 
 namespace Checkout_Kata
 {
     public class Checkout
     {
-        private readonly Product _product;
+        private readonly List<Product> _products = new List<Product>();
         private List<string> _scannedItem = new List<string>();
 
-        public Checkout(Product product)
+        public Checkout(List<Product> product)
         {
-            _product = product;
+            _products = product;
         }
         
         public void ScanItem(string product)
         {
-            if (string.IsNullOrEmpty(product) || !_product.ProductName.Contains(product))
+            if (string.IsNullOrEmpty(product) || !_products.Any(x => x.ProductName.Contains(product)))
             {
                 throw new ArgumentException($"Invalid Item scanned");
             }
@@ -28,9 +27,9 @@ namespace Checkout_Kata
             var total = 0M;
             foreach (var item in _scannedItem)
             {
-                if (_product.ProductName.Contains(item))
+                if (_products.Any(x => x.ProductName.Contains(item)))
                 {
-                    total += _product.ProductPrice;
+                    total += _products.Where(x => item.Contains(x.ProductName)).Sum(y => y.ProductPrice);
                 }
             }
 
